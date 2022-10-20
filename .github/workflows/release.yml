@@ -36,4 +36,5 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
+        tag_name: test
         files: MotoMond_${{ matrix.configuration }}.zip
